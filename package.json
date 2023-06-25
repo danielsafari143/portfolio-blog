@@ -4,7 +4,8 @@
   "description": "blog api",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/danielsafari143/portfolio-blog/issues"
   },
-  "homepage": "https://github.com/danielsafari143/portfolio-blog#readme"
+  "homepage": "https://github.com/danielsafari143/portfolio-blog#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.3.1"
+  }
 }
